@@ -2,7 +2,10 @@ body{
     background-color: #eaeaea;
     overflow-x: hidden;
 }
-
+.container-header .nav-link:hover {
+    background-color: rgb(227, 59, 59);
+    color: #eee;
+}
 .container{
     position: absolute;
     left:0;
@@ -128,7 +131,9 @@ body{
 #content .content-section {
     text-align: center;
     font-weight: 500;
-    margin: 0 200px 0 200px;
+    margin: 0 200px 80px 200px;
+    border: 0.01px solid #505050;
+    padding: 10px;
 }
 #content .section-header {
     margin-bottom: 30px;
@@ -140,6 +145,27 @@ body{
     font-size: 16px;
     font-style: italic;
     text-align: justify;
+}
+
+footer  {
+    background-color: #000;
+}
+
+.text-while h1 {
+    writing-mode: vertical-lr;
+    font-size: 70px;
+    transform: rotate(180deg);
+}
+ hr {
+    background-color: #fff;
+    height: 2px;
+    width: 50%;
+    margin-left: 0;
+
+}
+ .container-fluid {
+    width: 94%;
+    color: #fff;
 }
 
   
