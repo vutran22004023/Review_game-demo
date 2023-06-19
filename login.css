@@ -1,8 +1,7 @@
-@import url(https://fonts.google.com/specimen/Poppins?query=pop);
+
 html{
     margin: 0;
     padding: 0;
-
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -136,6 +135,15 @@ header{
 .form-box h2{
     font-size: 2em;
     color: #162938;
+    text-align: center;
+}
+.form-box.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    height: 100%;
     text-align: center;
 }
 .input-box{
