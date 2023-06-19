@@ -7,89 +7,68 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="Web">
-    <!-- header -->
-        <header class="container-header">
-            <nav class="navbar navbar-expand-lg  navbar-dark bg-light bg-dark " style="padding: 0;">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" style="margin-left: 40px;" href="#">Navbar</a>
-            
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                    <a class="nav-link" style="padding: 15px 20px;" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" style="padding: 15px 20px;" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link " style="padding: 15px 20px;" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 " type="search"  placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" style="border: 0.01px solid #fff; color: #fff; margin-right: 30px; " type="submit">Search</button>
-                </form>
-                </div>
-            </nav>
+    <div class="web">
+
+        <header>
+            <div class="navigation-header">
+                <nav class="navigation">
+                    <div class="navigation-item">
+                        <img src="./spacegame-low-resolution-logo-color-on-transparent-background (1).png" style="width: 300px;" alt="">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Services</a>
+                    </div>
+                    <button class="buttonLogin">Login</button>
+                </nav>
+            </div>
         </header>
 
-        <div class="advertisement">
-        <div class="container">
-            <div id="slide">
-                <div class="item" style="background-image: url(/decd5e8c3e2a3020ece7f8e3f24b1953.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(/f41cfffc2234e9633ce77deecce7de3c.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.pinimg.com/564x/30/71/14/30711446a4c599c53ef05c5253ee17d7.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.pinimg.com/564x/51/49/c7/5149c7458ade3a165fe6ba4dd0f2b15f.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.pinimg.com/564x/e9/ab/00/e9ab0095c5feaed4f197d95048470c44.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(https://i.pinimg.com/564x/cc/cd/5d/cccd5d3b807209f659a2455ae7afd3b2.jpg);">
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" height="600px" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" height="600px" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" height="600px" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                  </div>
+              </div>
             </div>
-            <div class="buttons">
-                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
-                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
-            </div>
-        </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
 
         <div id="content">
             <div class="content-section">
@@ -102,6 +81,7 @@
                 </p>
             </div>
 
+
             <div class="content-section">
                 <div class="section-header">
                         Giới Thiệu
@@ -110,6 +90,26 @@
                     Đây là web review các thể loại game hot,mới ra mắt 2023.Xem nhưng chi tiết của game một cách tổng
                      quan nhất, thông qua đó các bạn có thể mua các tựa game từ trang web này...
                 </p>
+            </div>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" style="height: 500px;padding: 0 60px;" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" style="height: 500px;padding: 0 60px;" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i.pinimg.com/564x/b8/d8/1d/b8d81d435976ae725e526e04b0de051a.jpg" style="height: 500px;padding: 0 60px;" alt="Third slide">
+                  </div>
+                </div>
             </div>
 
             <div class="content-section">
@@ -127,11 +127,11 @@
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-md-2">
-                        <h1 class="font-weight-bold mt-5 pt-2">Nike</h1>
+                        <h1 class="font-weight-bold mt-5 pt-2">SPACEGAME</h1>
 
                     </div>
 
-                    <div class=" col-md-3" style="margin-top: 20px;">
+                    <div class=" col-md-3" style="margin-top: 100px;">
                         <h4 class="font-weight-bold mb-3">Gift cardr</h4> <hr/>
                         <p>asdasdasd</p>
                         <p>asdasdasd</p>
@@ -142,7 +142,7 @@
                         
                     </div>
 
-                    <div class="col-md-3" style="margin-top: 20px;">
+                    <div class="col-md-3" style="margin-top: 100px;">
                         <h4 class="font-weight-bold mb-3">Get help</h4> <hr/>
                         <p>asdasdasd</p>
                         <p>asdasdasd</p>
@@ -153,7 +153,7 @@
                         
                     </div>
 
-                    <div class="col-md-3"style="margin-top: 20px;">
+                    <div class="col-md-3"style="margin-top: 100px;">
                         <h4 class="font-weight-bold mb-3">gifdasd</h4> <hr/>
                         <p>asdasdasd</p>
                         <p>asdasdasd</p>
@@ -164,10 +164,7 @@
                         
                     </div>
 
-                    <div class="col-md-1">
-                        <img src="./decd5e8c3e2a3020ece7f8e3f24b1953.jpg" width="80px" style="margin-top: 20px;">
-                        <h4 class="font-weight-bold" style="margin-top: 150px;">nike</h4>
-                    </div>
+                    
                 </div>
             </div>
         </footer>
